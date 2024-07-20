@@ -7,7 +7,7 @@ public class Main{
 	}
 }
 
-public class Main{
+public class TypeCast2{
 	public static void main(String[] args){
 		double myDouble = 9.78;
 		int myInt = (int) myDouble;
@@ -16,7 +16,7 @@ public class Main{
 	}
 }
 
-public class Main{
+public class AddOperator{
 	public static void main(String[] args){
 		int sum1=100+50,sum2,sum3;
 		sum2=sum1+50;
@@ -29,7 +29,7 @@ public class Main{
 	}
 }
 
-public class Main{
+public class ConditionalOperator{
 	public static void main(String[] args){
 		int x,y;
 		x=20;
@@ -40,14 +40,14 @@ public class Main{
 	}
 }
 
-public class Main{
+public class StrLen{
 	public static void main(String[] args){
 		String str="Hello World";
 		System.out.println("The length of str is "+str.length());
 	}
 }
 
-public class Main{
+public class StrCase{
 	public static void main(String[] args){
 		String str="Hello World";
 		System.out.println(str.toUpperCase());
@@ -55,7 +55,7 @@ public class Main{
 	}
 }
 
-public class Main{
+public class StrIndex{
 	public static void main(String[] args){
 		String str="Hello World";
 		System.out.println(str.indexOf('o'));
