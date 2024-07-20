@@ -8,3 +8,12 @@ public class ConditionalOperator{
 		System.out.println("Value of y is: "+y);
 	}
 }
+
+
+
+
+
+
+
+
+

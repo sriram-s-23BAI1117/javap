@@ -6,3 +6,6 @@ public class TypeCast1{
 		System.out.println(myDouble);
 	}
 }
+
+
+

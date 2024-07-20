@@ -4,3 +4,11 @@ public class StrLen{
 		System.out.println("The length of str is "+str.length());
 	}
 }
+
+
+
+
+
+
+
+

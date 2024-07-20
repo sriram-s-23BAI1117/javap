@@ -6,3 +6,10 @@ public class TypeCast2{
 		System.out.println(myInt);
 	}
 }
+
+
+
+
+
+
+

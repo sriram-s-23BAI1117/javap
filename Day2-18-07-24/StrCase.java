@@ -5,3 +5,13 @@ public class StrCase{
 		System.out.println(str.toLowerCase());
 	}
 }
+
+
+
+
+
+
+
+
+
+

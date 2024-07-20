@@ -4,3 +4,11 @@ public class StrIndex{
 		System.out.println(str.indexOf('o'));
 	}
 }
+
+
+
+
+
+
+
+
