@@ -1,3 +1,12 @@
+class Student{
+    public int roll_no;
+    public String name;
+    Student(int roll_no,String name){
+        this.roll_no = roll_no;
+        this.name = name;
+    }
+}
+
 public class ArrayEx2 {
     public static void main(String[] args) {
         Student[] arr = new Student[5];
@@ -12,12 +21,4 @@ public class ArrayEx2 {
     }
 }
 
-class Student{
-    public int roll_no;
-    public String name;
-    Student(int roll_no,String name){
-        this.roll_no = roll_no;
-        this.name = name;
-    }
-}
 
