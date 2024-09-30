@@ -1,5 +1,5 @@
 
-public class PolyEx3 {
+public class PolyEx3_12_9 {
     public static void main(String[] args) {
         Parent a;
         a = new subclass1();

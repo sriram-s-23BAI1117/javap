@@ -1,7 +1,6 @@
-//move 0's to the end
+//pair sum
 import java.util.Scanner;
-
-public class Ex3 {
+public class Ex2_19_8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the length of the array: ");
@@ -11,17 +10,16 @@ public class Ex3 {
         for (int i=0;i<n;i++){
             arr[i] = input.nextInt();
         }
-        System.out.print("Array with 0's moved to end: ");
-        for (int i=0;i<n-1;i++){
-            for (int j=0;j<n-i-1;j++){
-                if (arr[j]==0){
-                    arr[j] = arr[j+1];
-                    arr[j+1] = 0;
+        System.out.print("Enter the required sum: ");
+        int sum = input.nextInt();
+        System.out.print("Pairs of elements having the required sum: ");
+        for (int i=0;i<n;i++){
+            int k = sum-arr[i];
+            for (int j=i+1;j<n;j++){
+                if (k==arr[j]){
+                    System.out.print("("+arr[i]+","+arr[j]+")"+" ");
                 }
             }
-        }
-        for (int i=0;i<n;i++){
-            System.out.print(arr[i]+" ");
         }
         input.close();
     }

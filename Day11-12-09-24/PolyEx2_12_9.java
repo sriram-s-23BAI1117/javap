@@ -7,7 +7,7 @@ class Helper1{
     }
 }
 
-public class PolyEx2 {
+public class PolyEx2_12_9 {
     public static void main(String[] args) {
         System.out.println(Helper1.Multiply1(2, 4));
         System.out.println(Helper1.Multiply1(2, 7, 3));

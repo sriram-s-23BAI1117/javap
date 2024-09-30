@@ -1,24 +1,24 @@
-class Animal1 {
+class Animal11 {
     void eat() {
         System.out.println("eating...");
     }
 }
 
-class Dog1 extends Animal1 {
+class Dog11 extends Animal11 {
     void bark() {
         System.out.println("barking...");
     }
 }
 
-class Cat1 extends Animal1 {
+class Cat11 extends Animal11 {
     void meow() {
         System.out.println("meowing...");
     }
 }
 
-public class InheritanceEx3 {
+public class InheritanceEx3_3_9 {
     public static void main(String[] args) {
-        Cat1 c = new Cat1();
+        Cat11 c = new Cat11();
         c.meow();
         c.eat();
     }

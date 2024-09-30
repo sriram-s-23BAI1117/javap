@@ -1,8 +1,8 @@
-interface Animal {
+interface Animal22 {
     public void animalSound();
     public void sleep();
 }
-class Pig implements Animal{
+class Pig22 implements Animal22{
     public void animalSound(){
         System.out.println("The pig says: wee wee");
     }
@@ -11,9 +11,9 @@ class Pig implements Animal{
     }
 }
 
-public class InterfaceEx1 {
+public class InterfaceEx1_13_8 {
     public static void main(String[] args) {
-        Pig mPig = new Pig();
+        Pig22 mPig = new Pig22();
         mPig.animalSound();
         mPig.sleep();
     }

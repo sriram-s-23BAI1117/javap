@@ -1,4 +1,4 @@
-class OuterClass{
+class OuterClass12{
     int x = 10;
 
     class InnerClass{
@@ -10,8 +10,8 @@ class OuterClass{
 
 public class PolyEx4 {
     public static void main(String[] args) {
-        OuterClass myOuter = new OuterClass();
-        OuterClass.InnerClass myInner = myOuter.new InnerClass();
+        OuterClass12 myOuter = new OuterClass12();
+        OuterClass12.InnerClass myInner = myOuter.new InnerClass();
 
         System.out.println(myInner.myInnerMethod());
     }
