@@ -1,11 +1,11 @@
-abstract class Animal2 {
+abstract class Animal222 {
     public abstract void animalSound();
     public void sleep(){
         System.out.println("Zzz");
     }
 }
 
-class Pig2 extends Animal2{
+class Pig2 extends Animal222{
     public void animalSound(){
         System.out.println("The pig says: wee wee");
     }
