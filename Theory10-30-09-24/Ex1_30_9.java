@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//consecutive increase
 public class Ex1_30_9{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,11 +10,17 @@ public class Ex1_30_9{
         }
         int curc=0;
         int maxc=0;
-        for (int i=1;i<n;i++){
-            if (arr[i]>arr[i-1]){
+        int i=0;
+        while (i<n-1){
+            curc=0;
+            while (i<n-1 && arr[i]<arr[i+1]){
                 curc++;
+                i++;
             }
-            if (curc>maxc) {maxc = curc; curc=0;}
+            if (curc > maxc){
+                maxc=curc;
+            }
+            i++;
         }
         System.out.println(maxc);
         input.close();
